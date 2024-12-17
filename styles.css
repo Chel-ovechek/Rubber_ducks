@@ -1,0 +1,253 @@
+
+body{
+    background-image: url("Background.jpg");
+    background-repeat: repeat;
+    background-size: 680px;
+
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.own{
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    width: 800px;   
+    height: 100%;  
+    background: radial-gradient(#fdfbe4, #ffffff);
+    flex-direction: row;
+    
+}
+
+#Title{
+    color:rgb(209, 52, 24);
+    text-align: center;
+}
+
+#topic {
+    color:rgb(182, 185, 10);
+    text-align: center;
+    font-size: 22px;
+}
+
+#Big_old_duck_img{
+    background: url("Images/Big_old_duck.png") no-repeat center center;
+    width: 300px;
+    height: 450px;
+    border-radius: 20%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+p{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 52, 24);
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: white;
+    text-shadow: 1cap;
+}
+
+#First_duck_img {
+    background: url("Images/First_rubber_ducks.png") no-repeat center center;
+    width: 300px;
+    height: 450px;
+    border-radius: 20%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+#txt_for_game {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(110, 112, 0);
+    font-size: 18px;
+    background: linear-gradient(rgb(255, 237, 133), rgb(255, 134, 134))
+    
+}
+
+#game{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: large;
+}
+
+#title_game{
+    font-size: 30px;
+    color: rgb(255, 42, 42);
+    margin: 10px;
+    text-shadow: 1px 1px 1px rgb(255, 195, 195);
+
+}
+
+#container {
+    display: flex;
+}
+
+#left {
+    position: relative;
+    flex: 2;
+    background: linear-gradient(to bottom right, #7cffe3, #45abff);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    font-size: 40px;
+    
+    height: 480px;
+    width: 350px;
+}
+
+.list-item {
+    cursor: pointer;
+    list-style-type: none;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+#duck {
+    height: 80px;
+    width: 80px;
+}
+
+#Mum_duck {
+    height: 200px;
+    width: 200px;
+}
+
+#right {
+    flex: 2;
+    background: linear-gradient(to bottom left, #ffbb3c, #6b4f00);
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    font-size: 40px;
+
+    height: 480px;
+    width: 350px;
+}
+
+#paragraph {
+    color:rgb(24, 146, 0);
+    text-align: center;
+    font-size: 18px;
+}
+
+#Big_Duck {
+    background: url("Images/Big_Ducks.png") no-repeat center center;
+    width: 620px;
+    height: 350px;
+    border-radius: 20%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+#sea{
+    display: flex;
+    position: relative;
+    flex: 2;
+    background-color: #001e25;
+    overflow:hidden;
+
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    font-size: 40px;
+    
+    color: rgb(0, 35, 151);
+    height: 480px;
+    width: 350px;
+}
+#Port{
+    flex: 1.5;
+    background: url("Images/Port.jpg") no-repeat  left center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    font-size: 40px;
+    
+    color: rgb(0, 35, 151);
+    height: 480px;
+    width: 350px;
+}
+
+
+#Duck_from_up_img{
+    width: 40px;
+    height: 40px;  
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    transition: top 0.1s, left 0.1s;
+}
+
+#Ship_img{
+    width: 40px;
+    height: 40px;  
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: top 0.1s, left 0.1s;
+}
+
+#Rubber_race {
+    background: url("Images/Rubber_race.jpg") no-repeat center center;
+    width: 600px;
+    height: 350px;
+    border-radius: 20%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+#Temza {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Расположение в колонку */
+    align-items: flex-start; /* Все утки у левого края */
+    gap: 10px;
+    background: linear-gradient(to right, #726a86, #6790a3);
+    padding: 10px;
+    border-radius: 10px;
+    height: 270px;
+}
+
+.duck {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    transition: left 0.05s linear;
+}
+
+footer {
+    display: flex; /* Включаем Flexbox */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    height: 20px; /* Устанавливаем высоту контейнера */
+
+    background-color: #ffe46a;
+    padding: 20px;
+    font-size: 16pt;
+}
+
+#vk{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#tg{
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+}
+
